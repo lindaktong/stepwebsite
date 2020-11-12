@@ -1,5 +1,5 @@
 module.exports = {
-  email: 'brittany.chiang@gmail.com',
+  email: 'stepfellowship@gmail.com',
 
   socialMedia: [
     {
@@ -30,11 +30,11 @@ module.exports = {
       url: '/#about',
     },
     {
-      name: 'Experience',
+      name: 'FAQs',
       url: '/#jobs',
     },
     {
-      name: 'Work',
+      name: 'Legislators',
       url: '/#projects',
     },
     {
@@ -46,7 +46,7 @@ module.exports = {
   colors: {
     green: '#64ffda',
     navy: '#0a192f',
-    darkNavy: '#020c1b',
+    darkNavy: '#4a4b4b',
   },
 
   srConfig: (delay = 200, viewFactor = 0.25) => ({
