@@ -116,9 +116,9 @@ const StyledPic = styled.div`
 const About = () => {
   const data = useStaticQuery(graphql`
     query {
-      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "me.jpg" }) {
+      avatar: file(sourceInstanceName: { eq: "images" }, relativePath: { eq: "bold.png" }) {
         childImageSharp {
-          fluid(maxWidth: 500, traceSVG: { color: "#64ffda" }) {
+          fluid(maxWidth: 500, traceSVG: { color: "#f08080" }) {
             ...GatsbyImageSharpFluid_withWebp_tracedSVG
           }
         }
@@ -132,31 +132,35 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = ['autonomous vehicles', 'hiring algorithms', 'digital privacy and security' ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
-      <h2 className="numbered-heading">About Me</h2>
+      <h2 className="numbered-heading">About STeP</h2>
 
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Linda Tong, a software engineer based in Boston, MA.</p>
+            <p>As a STeP Fellow, you’ll bring your technical expertise to the office of a state legislator 
+              working on technology-related legislation.</p>
 
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              You’ll spend a majority of your time working on actual tech policy issues. 
+              With everything from ridesharing regulations to data privacy being
+              decided at the state level, you’ll have a meaningful opportunity to contribute to shaping the 
+              future of U.S. technology policy.
             </p>
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+            The fellowship takes place between January and May, with some flexibility on start and end dates. 
+            The commitment is 10-15 hours per week. While the fellowship is unpaid, we can help you secure academic credit 
+            for completing the fellowship. If you’re an undergraduate student pursuing a degree related to digital technology 
+            (e.g. computer science, electrical engineering, symbolic systems), you’re eligible to apply! You do not need to 
+            have any prior policy experience — if you’re accepted, we’ll get you up to speed on everything policy-related that 
+            you need to know.
             </p>
 
-            <p>Here are a few technologies I've been working with recently:</p>
+            <p>Here are a few tech policy issues you might work on:</p>
           </div>
 
           <ul className="skills-list">

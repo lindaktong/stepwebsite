@@ -1,15 +1,12 @@
 ---
 date: '2'
-title: 'Spotify Profile'
-cover: './demo.png'
-github: 'https://github.com/bchiang7/spotify-profile'
-external: 'https://spotify-profile.herokuapp.com/'
+title: 'Learn about policymaking'
+cover: './3.png'
+github: ''
+external: ''
 tech:
-  - React
-  - Node.js
-  - Express
-  - Spotify Web API
+  - 
 showInProjects: true
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+By working closely with a legislative office, you’ll get hands-on experience with how the policymaking process works. The STeP Fellowship is structured so that you can spend the majority of your fellowship working on policy or policy-adjacent issues.

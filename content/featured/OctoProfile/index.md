@@ -1,14 +1,12 @@
 ---
 date: '3'
-title: 'OctoProfile'
-cover: './octoprofile.png'
-github: 'https://github.com/bchiang7/octoprofile'
-external: 'https://octoprofile.now.sh'
+title: 'Work on substantive tech policy'
+cover: './2.png'
+github: ''
+external: ''
 tech:
-  - Next.js
-  - Chart.js
-  - GitHub API
+  - 
 showInProjects: true
 ---
 
-A nicer look at your GitHub profile and repository stats with data visualizations of your top languages and stars. Sort through your top repos by number of stars, forks, and size.
+Through the STeP Fellowship, you’ll get to engage with the tech and policy behind meaningful tech policy issues. Because state legislatures will [decide the future](https://www.axios.com/states-2020-tech-policy-fights-f467033d-c5f2-4467-a256-ee894c62190d.html) of many tech policy issues, your work can help shape the role that technology plays in society. 
