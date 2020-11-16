@@ -2,9 +2,9 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'STeP Fellowship',
+    title: 'Brittany Chiang',
     description:
-      'The STeP Fellowship pairs undergraduate students pursuing technology-related degrees with state legislators working on the most pressing issues in technology policy.',
+      'Brittany Chiang is a software engineer specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.',
     siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@bchiang7',

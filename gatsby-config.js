@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'STeP Fellowship',
     description:
-      'Brittany Chiang is a software engineer specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.',
+      'The STeP Fellowship pairs undergraduate students pursuing technology-related degrees with state legislators working on the most pressing issues in technology policy.',
     siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@bchiang7',
