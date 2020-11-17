@@ -1,13 +1,6 @@
 module.exports = {
   email: 'stepfellowship@gmail.com',
 
-  socialMedia: [
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
-    },
-  ],
-
   navLinks: [
     {
       name: 'About',
