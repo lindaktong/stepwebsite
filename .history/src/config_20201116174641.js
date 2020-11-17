@@ -4,7 +4,7 @@ module.exports = {
   socialMedia: [
     {
       name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://twitter.com/step_fellowship',
     },
   ],
 
